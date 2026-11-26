@@ -1,3 +1,2 @@
-===== TASK 8: login =====
 curl -X POST "http://localhost:5001/customer/login" -H "Content-Type: application/json" -d '{"username":"user1","password":"pass1"}' -c cookies.txt
 Customer successfully logged in
